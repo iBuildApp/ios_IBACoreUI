@@ -1,0 +1,11 @@
+framework module Lightbox {
+  umbrella header "Framework-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module Lightbox.Swift {
+    header "Lightbox-Swift.h"
+    requires objc
+}
